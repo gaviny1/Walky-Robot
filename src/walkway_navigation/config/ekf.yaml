@@ -1,0 +1,39 @@
+ekf_filter_node:
+  ros__parameters:
+    use_sim_time: true
+    frequency: 30.0
+    two_d_mode: true # Ignore Z height and 3D rotations on a 2D walkway
+
+    publish_tf: true
+    map_frame: map    # Defaults to "map"
+    odom_frame: odom    # Defaults to "odom"
+    base_link_frame: base_footprint   # Robot's base frame
+    world_frame: odom   # We want this EKF to handle odom -> base_footprint
+
+    # ------------------------------
+    # Odometry Input (From wheels via Gazebo)
+    # ------------------------------
+    odom0: /odom
+    # Which values from wheel odometry do we want to use?
+    # [X, Y, Z]
+    # [Roll, Pitch, Yaw]
+    # [X_vel, Y_vel, Z_vel]
+    # [Roll_vel, Pitch_vel, Yaw_vel]
+    # [X_accel, Y_accel, Z_accel]
+    odom0_config: [true,  true,  false,
+                   false, false, false,
+                   true,  false, false,
+                   false, false, true,
+                   false, false, false]
+
+    # ------------------------------
+    # IMU Input (From Gazebo IMU plugin)
+    # ------------------------------
+    imu0: /imu
+    # We do NOT trust IMU for absolute position (X, Y), it drifts too fast
+    # We highly trust IMU for Yaw (rotation) and rotational velocity
+    imu0_config: [false, false, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]

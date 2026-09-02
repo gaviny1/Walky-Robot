@@ -1,0 +1,222 @@
+<sdf version='1.10'>
+  <world name='test_world'>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
+      <background>0.699999988 0.699999988 0.699999988 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <model name='ground_plane'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.800000012 0.800000012 0.800000012 1</ambient>
+            <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='obstacle_box'>
+      <pose>2 0 0.5 0 0 0</pose>
+      <link name='box_link'>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <specular>0.100000001 0.100000001 0.100000001 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall</name>
+      <pose>3.4006636142730713 -8.106719970703125 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_0</name>
+      <pose>3.2862575054168701 7.1416797637939453 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1</name>
+      <pose>7.1092219352722168 3.295180082321167 0 0 0 1.574679992521274</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_2</name>
+      <pose>7.1203188896179199 -4.1760067939758301 0 0 0 1.5716800619465749</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_3</name>
+      <pose>-4.1586399078369141 -8.1218652725219727 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_4</name>
+      <pose>-4.3054494857788086 7.1165099143981934 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_5</name>
+      <pose>-7.9130001068115234 3.2393865585327148 0 0 0 -1.5728900139714526</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_6</name>
+      <pose>-7.8924884796142578 -4.2863235473632812 0 0 0 1.5761199858893564</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/litterbin/2</uri>
+      <name>LitterBin</name>
+      <pose>3.335952630506533 -6.0422389012535476 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/base station/9</uri>
+      <name>BaseStation</name>
+      <pose>-3.9134816907013299 4.0521524685569883 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction barrel/4</uri>
+      <name>Construction Barrel</name>
+      <pose>-4.9058078619716223 0.32421070091225324 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <name>Construction Cone</name>
+      <pose>-2.0171915303231298 -3.0295416833127522 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/mailbox/3</uri>
+      <name>Mailbox</name>
+      <pose>4.9500904351712975 5.6250168739631423 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/speed limit sign/3</uri>
+      <name>Speed limit</name>
+      <pose>4.3171068840715847 -3.5804991217479172 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/stop sign/3</uri>
+      <name>Stop Sign</name>
+      <pose>4.9500895820896531 2.9606706045850797 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
+      <name>person_standing</name>
+      <pose>-2.2069131408790863 1.8012837050532711 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <name>FoodCourtBarricade</name>
+      <pose>-3.9933657461465364 2.5151526472895176 0 0 0 0</pose>
+    </include>
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.10000000000000001 -0.90000000000000002</direction>
+      <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+      <specular>0.200000003 0.200000003 0.200000003 1</specular>
+      <attenuation>
+        <range>10</range>
+        <linear>1</linear>
+        <constant>1</constant>
+        <quadratic>0</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

@@ -1,0 +1,31 @@
+1. Save a map 
+    launch display.launch.py   
+        set Fixed Frame to map
+    
+    Launch slam.launch.py 
+
+    Run teleop_twist_keyboard
+        drive the robot around and observe map generated in RViz 
+
+    Scan the entire map, and run nav2_map_server map_saver_cli -f src/walkway_navigation/maps/walkway_map_1_1
+
+2. LiDAR 
+    Inside display.launch.py,
+    make sure rviz_node uses walkway1.rviz
+
+    Inside bringup.launch.py,
+    make sure nav2_params_file uses nav2_params_1.yaml
+
+    bringup.launch.py
+    waypoint_patrol.py
+
+3. Camera
+    Inside display.launch.py,
+    make sure rviz_node uses walkway1_1.rviz
+
+    Inside bringup.launch.py,
+    make sure nav2_params_file uses nav2_params_1_1.yaml
+    
+    bringup.launch.py
+    voxel_filter
+    waypoint_patrol.py
