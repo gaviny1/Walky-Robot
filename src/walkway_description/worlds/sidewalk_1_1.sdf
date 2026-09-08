@@ -205,187 +205,224 @@
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OutsideBench</uri>
       <name>OutsideBench</name>
       <pose>-2.4294502735137935 -2.169450044631958 0 0 0 1.5707999672671711</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade</name>
       <pose>-3.3929300308227539 -2.5733425617218018 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbenchshort/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbenchshort/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBenchShort</uri>
       <name>FoodCourtBenchShort</name>
       <pose>-8.4296941757202148 -2.2423350811004639 0 0 0 1.5708000357176291</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/tent/4</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/tent/4</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/tent</uri>
       <name>tent</name>
       <pose>-0.20000000298023224 2.282059907913208 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <name>Construction Cone</name>
       <pose>-2.3714399337768555 3 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Jersey Barrier</uri>
       <name>jersey_barrier</name>
       <pose>-3.9133439064025879 1.4261100292205811 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Jersey Barrier</uri>
       <name>jersey_barrier_0</name>
       <pose>-7.9822602272033691 1.4241299629211426 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/tent/4</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/tent/4</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/tent</uri>
       <name>tent_0</name>
       <pose>2.8875999450683594 2.244149923324585 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Jersey Barrier</uri>
       <name>jersey_barrier_1</name>
       <pose>6.5808459944792341 1.4238266625208844 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Jersey Barrier</uri>
       <name>jersey_barrier_2</name>
       <pose>10.640704426382161 1.4174067035415128 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_0</name>
       <pose>-1.6183702978924464 -2.574828922103559 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_1</name>
       <pose>0.15249135791134449 -2.5757902526401546 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_2</name>
       <pose>1.9155089892767285 -2.5745424645893737 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/cafe table/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/cafe table/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cafe table</uri>
       <name>cafe_table</name>
       <pose>-0.20000000298023224 2.2000000476837158 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/cafe table/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/cafe table/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cafe table</uri>
       <name>cafe_table_0</name>
       <pose>2.9440898895263672 2.2000000476837158 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair</name>
       <pose>-0.80000001192092896 2.1502299308776855 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_0</name>
       <pose>2.3422260135941473 2.378720963314124 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_1</name>
       <pose>-0.25899699330329895 2.7800300121307373 0 0 0 -1.5707963267948963</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_2</name>
       <pose>0.38260799646377563 2.150209903717041 0 0 0 3.1415926535897931</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_3</name>
       <pose>3.6726572513580322 2.3290805816650391 0 0 0 3.1415900000000754</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_4</name>
       <pose>2.9232900142669678 2.9876399040222168 0 0 0 -1.5707963267948963</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_5</name>
       <pose>2.9292697906494141 1.5353852510452271 0 0 0 1.5708000357176291</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/woodenchair/1</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <name>WoodenChair_6</name>
       <pose>-0.21514302492141724 1.5409704446792603 0 0 0 1.5708000357176291</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_3</name>
       <pose>-5.1618800163269043 -2.5762701034545898 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_4</name>
       <pose>-6.940291137484639 -2.573593080061237 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_5</name>
       <pose>-8.7070918025736166 -2.5747768740477905 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_6</name>
       <pose>-10.477971223431499 -2.5742997278613591 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_7</name>
       <pose>3.6858601511884794 -2.5751904721537895 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_8</name>
       <pose>5.4520929994810849 -2.573625390821479 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_9</name>
       <pose>7.2153294618180492 -2.5723438545254322 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_10</name>
       <pose>8.9790006732703915 -2.5728490768009769 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/foodcourtbarricade/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtBarricade</uri>
       <name>FoodCourtBarricade_11</name>
       <pose>10.740826610259585 -2.5717650513262127 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/gazebo flag/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/gazebo flag/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Gazebo flag</uri>
       <name>gazebo_flag</name>
       <pose>12.363900184631348 -4.6212592124938965 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OutsideBench</uri>
       <name>OutsideBench_0</name>
       <pose>6.3581099510192862 -2.2095339298248291 0 0 0 1.5707999672671711</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/outsidebench/3</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OutsideBench</uri>
       <name>OutsideBench_1</name>
       <pose>1.8376008272171023 -2.1715700626373291 0 0 0 1.5707999672671704</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/litterbin/2</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/litterbin/2</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/LitterBin</uri>
       <name>LitterBin</name>
       <pose>-5.2699886159261764 -2.2945332131599732 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri>
+      <!-- <uri>file:///home/yifeng/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6</uri> -->
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Jersey Barrier</uri>
       <name>jersey_barrier_3</name>
       <pose>-12.05873481680813 1.4294940983798474 0 0 0 0</pose>
     </include>

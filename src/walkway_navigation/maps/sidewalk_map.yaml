@@ -1,4 +1,4 @@
-image: sideway_map.pgm
+image: sidewalk_map.pgm
 mode: trinary
 resolution: 0.050
 origin: [-3.724, -6.415, 0]

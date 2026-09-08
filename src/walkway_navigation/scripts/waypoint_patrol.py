@@ -5,6 +5,7 @@ from rclpy.node import Node
 from rclpy.action import ActionClient
 from rclpy.parameter import Parameter
 from nav2_msgs.action import NavigateToPose
+from nav2_simple_commander.robot_navigator import BasicNavigator
 from action_msgs.msg import GoalStatus
 from nav_msgs.msg import Odometry
 
@@ -83,6 +84,12 @@ class WaypointPatrol(Node):
 
 def main(args=None):
     rclpy.init(args=args)
+
+    # Wait robot's pose is estimated
+    navigator = BasicNavigator()
+    navigator.waitUntilNav2Active()
+    print("Nav2 is active and pose is set. Starting patrol...")
+    
     node = WaypointPatrol()
 
     try:

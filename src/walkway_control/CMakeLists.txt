@@ -24,6 +24,7 @@ install(TARGETS
 # 4. Install the Python script so 'ros2 run' can find it
 install(PROGRAMS
   scripts/simple_driver.py
+  scripts/speed_tuner.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
