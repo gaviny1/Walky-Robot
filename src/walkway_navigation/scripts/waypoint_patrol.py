@@ -86,9 +86,9 @@ def main(args=None):
     rclpy.init(args=args)
 
     # Wait robot's pose is estimated
-    #navigator = BasicNavigator()
-    #navigator.waitUntilNav2Active()
-    #print("Nav2 is active and pose is set. Starting patrol...")
+    navigator = BasicNavigator()
+    navigator.waitUntilNav2Active()
+    print("Nav2 is active and pose is set. Starting patrol...")
     
     node = WaypointPatrol()
 
