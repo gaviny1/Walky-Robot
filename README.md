@@ -2,7 +2,7 @@
 
 A ROS 2 Jazzy workspace developing perception, navigation, and control modules for a robot operating in simulated pedestrian sidewalk environments.
 
-![Walky Robot Demo](Walky-Robot_demo.gif)
+![Walky Robot Demo](Demo.gif)
 
 ## Package Architecture
 
